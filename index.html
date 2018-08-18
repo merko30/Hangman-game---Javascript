@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Word guess</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+</head>
+
+<body>
+    <div class="container">
+
+        <input placeholder="Type letter..." type="text" id="letter" />
+        <button class="button" id="tryLetter" type="submit">
+            Try this letter
+        </button>
+        <button class="button" id="reset" type="submit">
+            Try another word
+        </button>
+
+        <div>
+            <p id="error"></p>
+        </div>
+
+        <div style="margin: 10px">
+            <p id="word"></p>
+        </div>
+
+        <div>
+            <p id="message"></p>
+        </div>
+
+        <div id="image">
+            <div class="line" id="first"></div>
+            <div class="line" id="second"></div>
+            <div class="line" id="third"></div>
+            <div class="line" id="fourth"></div>
+            <div class="line" id="fifth"></div>
+            <div class="line" id="sixth"></div>
+            <div class="line" id="seventh"></div>
+            <div class="line" id="eighth"></div>
+            <div class="circle"><b>O</b></div>
+            <div class="line" id="nineth"></div>
+            <div class="line" id="tenth"></div>
+            <div class="line" id="eleventh"></div>
+            <div class="line" id="twelfth"></div>
+            <div class="line" id="threeteenth"></div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

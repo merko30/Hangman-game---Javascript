@@ -1,0 +1,163 @@
+input {
+    padding: 8px 10px;
+    background-color: white;
+    border: 1px solid #333333;
+}
+
+.button {
+    padding: 8px 10px;
+    background-color: white;
+    border: 1px solid #333333;
+}
+
+#image {
+    width: 400px;
+    height: 400px;
+    margin: 200px 100px;
+    position: relative;
+}
+
+.line {
+    width: 30px;
+    background-color: black;
+    height: 2px;
+}
+
+#first {
+    margin-top: 100px;
+    display: none;
+}
+
+#second {
+    transform: rotate(90deg);
+    position: absolute;
+    top: -16px;
+    left: 14px;
+    display: none;
+}
+
+#third {
+    transform: rotate(90deg);
+    position: absolute;
+    top: -32px;
+    left: 14px;
+    display: none;
+}
+
+#fourth {
+    transform: rotate(90deg);
+    position: absolute;
+    top: -48px;
+    left: 14px;
+    display: none;
+}
+
+#fifth {
+    transform: rotate(90deg);
+    position: absolute;
+    top: -64px;
+    left: 14px;
+    display: none;
+}
+
+#sixth {
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    display: none;
+}
+
+#seventh {
+    position: absolute;
+    top: -80px;
+    left: -14px;
+    display: none;
+}
+
+#eighth {
+    width: 15px;
+    position: absolute;
+    transform: rotate(90deg);
+    top: -73px;
+    left: -21px;
+    display: none;
+}
+
+.circle {
+    position: absolute;
+    transform: rotate(90deg);
+    top: -69px;
+    left: -20px;
+    font-family: "arial";
+    display: none;
+}
+
+#nineth {
+    width: 35px;
+    position: absolute;
+    transform: rotate(90deg);
+    top: -39px;
+    left: -31px;
+    display: none;
+}
+
+#tenth {
+    width: 15px;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -17px;
+    display: none;
+    left: -15px;
+}
+
+#eleventh {
+    width: 15px;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: -17px;
+    left: -27px;
+    display: none;
+}
+
+#twelfth {
+    width: 15px;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -45px;
+    left: -15px;
+    display: none;
+}
+
+#threeteenth {
+    width: 15px;
+    position: absolute;
+    transform: rotate(-45deg);
+    top: -45px;
+    left: -27px;
+    display: none;
+}
+
+#error {
+    padding: 10px;
+    color: rgb(255, 42, 42);
+    background-color: rgb(255, 151, 151);
+    border: 1px solid rgb(255, 42, 42);
+    display: none;
+}
+
+#message {
+    padding: 10px;
+    display: none;
+}
+
+.fail {
+    color: rgb(255, 42, 42);
+    background-color: rgb(255, 151, 151);
+    border: 1px solid rgb(255, 42, 42);
+}
+
+.success {
+    color: rgb(15, 160, 51);
+    background-color: rgb(172, 255, 176);
+    border: 1px solid rgb(15, 160, 51);
+}
