@@ -154,7 +154,7 @@ function checkLetterInWord(letter, splited) {
 function setLetter(letter, splited, word) {
     if (checkLetterInWord(letter, splited)) {
         for (let i = 0; i < splited.length; i++) {
-            for (let i = 0; i < w.length; i++) {}
+            for (let i = 0; i < w.length; i++) { }
             if (splited[i] == letter) {
                 let sp = w.innerText.split(" ");
                 sp[i] = letter;
@@ -182,11 +182,13 @@ function setLetter(letter, splited, word) {
 // Takes the value from input, validates it, push it to usedLetters if is used already..
 // Word and splited parameters are there just to pass them to setLetter function...
 function tryLetter(splited, word) {
-    return function() {
+    return function () {
         if (!input.value) {
             showError("Type something...");
         } else if (input.value && input.value.length > 1) {
             showError("Type just one letter...");
+        } else if (input.value && !input.value.match(/[a-zA-Z]/)) {
+            showError("Only letters...");
         } else {
             showError("");
             if (!isLetterUsed(input.value)) {
